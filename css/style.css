@@ -1,0 +1,119 @@
+/* about */
+.about h3 {
+  margin-top: 7em;
+}
+
+.about h5 {
+  color: rgb(51, 51, 212);
+  padding-bottom: 2em;
+}
+
+.about a {
+  background-color: red;
+  color: white;
+}
+
+.about .kotak {
+  width: 5em;
+  height: 5em;
+  background-color: rgb(51, 51, 212);
+  animation: muter 5s infinite alternate;
+}
+
+.about .kotak.pertama {
+  margin-left: 20em;
+  margin-top: 12em;
+}
+
+.about .kotak.kedua {
+  margin-left: 15em;
+}
+
+/* game */
+.game {
+  margin-top: 8em;
+}
+
+.game .card {
+  box-sizing: border-box;
+}
+
+.game .card.satu {
+  height: 18em;
+  padding: 3em;
+}
+
+.game .card.dua {
+  height: 13em;
+  padding: 3em;
+  background-color: rgb(248, 248, 248);
+}
+
+.game .card-body {
+  overflow: auto;
+}
+
+.game .card.dua p:hover {
+  cursor: pointer;
+}
+
+/* services */
+.services {
+  background-color: rgb(248, 248, 248);
+  margin-top: -3em;
+}
+
+.services .card {
+  border-radius: 1em;
+}
+
+.services .bi-controller {
+  font-size: 3rem !important;
+  color: rgb(218, 35, 218);
+}
+
+.services .bi-heart-fill {
+  color: red;
+}
+
+.services h2 {
+  margin-top: 5em;
+}
+
+@keyframes muter {
+  0% {
+    transform: rotate(0);
+  }
+
+  50% {
+    background-color: rgb(44, 238, 44);
+  }
+
+  100% {
+    transform: rotate(360deg);
+    background-color: red;
+  }
+}
+
+/* TAB Responsive */
+@media (max-width: 968px) {
+  .about .kotak.pertama {
+    margin-left: 8em;
+  }
+
+  .about .kotak.kedua {
+    margin-left: 13em;
+  }
+}
+
+/* Phone Responsive */
+@media (max-width: 568px) {
+  .about .kotak {
+    width: 0;
+    height: 0;
+  }
+
+  .game {
+    margin-top: -3em;
+  }
+}
