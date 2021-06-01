@@ -67,6 +67,11 @@
   border-radius: 1em;
 }
 
+.services .card:hover {
+  transform: translateY(-2em);
+  transition: 1s;
+}
+
 .services .bi-controller {
   font-size: 3rem !important;
   color: rgb(218, 35, 218);
