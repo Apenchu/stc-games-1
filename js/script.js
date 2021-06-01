@@ -1,3 +1,18 @@
+$('.btn').on('click', function(e){
+    let tujuan = $(this).attr('href');
+
+    let elemenTujuan = $(tujuan);
+
+    $('html, body').animate({
+        scrollTop: elemenTujuan.offset().top - 30
+    }, 2000);
+
+    e.preventDefault();
+
+});
+
+
+
 
 
 // Pilihan mandi
