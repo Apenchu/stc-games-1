@@ -658,7 +658,6 @@ $('.container-game').on('click', '.makanan-kesukaanmu' ,function(){
                 <div class="card satu">
                 <div class="card-body">
                     <p class="card-text">
-                        Memilih makanan kesukaanmu
                         "Wahh enak, makanan yang kamu suka selalu enak deh" -doimu
                         <br>
                         "Haha iya donk aku gitu lho"
